@@ -153,4 +153,129 @@ ul,li{list-style:none;}
     background-position: center center;
     border: none;
     outline: none;
+    z-index: 2;
+}
+.show_realtime_visitor{
+    position: absolute;
+    top:50px;
+    left: -1px;
+    height: 300px;
+    width: 354px;
+    background-color: blue;
+    z-index: 4;
+    border-radius: 0px 0px 3px 3px;
+    border: 1px solid #cecece;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #e9e9e9;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 8%), -1px 1px 1px rgb(0 0 0 / 3%), 1px 1px 1px rgb(0 0 0 / 3%);
+}
+
+.show_realtime_visitor_title{
+    display:  flex;
+    height: 50px;
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    justify-content: flex-start;
+    align-items: center;
+}
+.show_realtime_visitor_title p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 20px;
+}
+.show_realtime_visitor_button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 50px;
+    background-color: white;
+    background-image: url("../img/up-arrow.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    outline: none;
+}
+.show_realtime_visitor_main{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+}
+.show_realtime_visitor_main ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.show_realtime_visitor_row{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.show_realtime_visitor_row_1{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.show_realtime_visitor_column_1{
+    display: flex;
+    width: 30px;
+    height: 100%;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.show_realtime_visitor_column_2{
+    display: flex;
+    width: 220px;
+    height: 100%;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14.5px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.show_realtime_visitor_column_3{
+    display: flex;
+    width: 74px;
+    height: 100%;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14.5px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #333
+}
+.show_realtime_visitor_main_end{
+    width: 344px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #484848
 }
