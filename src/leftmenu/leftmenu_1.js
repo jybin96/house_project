@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './leftmenu_main.css';
 
 
-function Leftmenu_1() {
+function Leftmenu_1(props) {
   const [realtime_bool, realtime_change] = useState(false);
   const realtime_onclick_true = () =>{
     realtime_change(true)
@@ -15,8 +15,8 @@ function Leftmenu_1() {
       {realtime_bool ? <Realtime_visitor realtime_onclick_false={realtime_onclick_false}/>: <div></div>}
       <div className="keyword_div">
         <a href="#"></a>
-        <input placeholder="지역명또는 도로명주소로 검색"/>
-        <button></button>
+        <input placeholder="  지역명또는 도로명주소로 검색"/>
+        <button onClick={props.props_searchbar_change}></button>
       </div>
       <div className="realtime_visitor">
       <ul>
